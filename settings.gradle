@@ -1,1 +1,6 @@
 rootProject.name = 'VernumLib'
+include 'Core'
+include 'Vision'
+include 'Chassis'
+include 'Mechanisms'
+include 'Odometry'

@@ -9,6 +9,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Chassis" />
+            <option value="$PROJECT_DIR$/Core" />
+            <option value="$PROJECT_DIR$/Mechanisms" />
+            <option value="$PROJECT_DIR$/Odometry" />
+            <option value="$PROJECT_DIR$/Vision" />
           </set>
         </option>
       </GradleProjectSettings>
