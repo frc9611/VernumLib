@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+    id "edu.wpi.first.GradleRIO" version "2026.2.1"
+}
+
+group = 'com.frc9611'
+version = '2026'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = "https://maven.ctr-electronics.com/release/"
+    }
+    maven {
+        url = 'https://maven.revrobotics.com/'
+    }
+}
+
+dependencies {
+    annotationProcessor wpi.java.deps.wpilibAnnotations()
+    implementation wpi.java.deps.wpilib()
+    implementation wpi.java.vendor.java()
+    implementation 'com.google.code.gson:gson:2.10'
+    implementation 'org.zoomba-lang:spark-core:3.0.2'
+    implementation 'com.ctre.phoenix6:wpiapi-java:26.1.1'
+    implementation 'com.revrobotics.frc:REVLib-java:2026.0.0-beta-1'
+}
